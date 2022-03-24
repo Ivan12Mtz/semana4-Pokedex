@@ -363,6 +363,7 @@
 
     .blue-button {
         height: 30px;
+        
         flex: 1 1 16%;
         
         border: groove #6c96e6 3px;
@@ -488,7 +489,32 @@
         justify-content: space-around;
         padding: 15px;
     }
-
+    .topScanner{
+        display: flex;
+    }
+    .scannerStatus{
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: outset rgb(255, 255, 255) 6px;
+        transform: rotate(30deg);
+        background: radial-gradient(circle farthest-corner at 40% 25%,
+                rgb(218, 237, 241) 9%,
+                rgb(124, 214, 237) 20%,
+                rgb(64, 90, 165) 62%,
+                rgb(43, 125, 196) 100%);
+        cursor: pointer; 
+    }
+    .scannerStatusButton1{
+        background-color: #b31818;
+        width: 42px;
+        height: 42px;
+        position: relative;
+        
+        border-radius: 20px;
+    }
+  
     .button {
         padding: 5px;
         width: 40px;
